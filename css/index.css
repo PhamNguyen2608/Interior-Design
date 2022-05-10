@@ -1,0 +1,175 @@
+/* *GLOBAL */
+*{
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Times New Roman', Times,serif;
+
+}
+/* *HEADER */
+.header img{
+    width:250px  ;
+}
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 15px;
+    margin: 0 0 10px;
+    
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.header li{
+    display: inline-block;
+    margin:10px 10px
+}
+.carousel{
+    background-image: url(../img/slider_1.jpg);
+    height:550px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* *PRODUCTS */
+.clear{
+    clear: both;
+}
+.products{
+    margin-bottom: 10px;
+}
+.products__item {
+    float: left;
+    width: 25%;
+    padding: 0 10px; 
+}
+.products__item img {
+    width: 100%;
+}
+.products__item  h3{
+    text-align: center;
+    font: size 25px;
+}
+.products h2{
+    text-align: center;
+    font-size:30px
+}
+.products__item button{
+    border-radius: 50px;
+    background: rgb(195, 13, 13);
+    border: 1px solid red 
+    ;color: white;
+    font-size: 18px;
+        /* text-align: center; */
+}
+.products__item p{
+    font: size 18px;
+    margin-bottom: 10px;
+}
+/* *INTRO */
+.intro__content .intro__content__left ,.intro__content__right{
+    float: left;
+    width: 50%;
+   
+}
+
+.intro__content__left .img__small{
+    float: left;
+    width: 50%;
+    padding: 0 15px 25px ;
+
+}   
+.intro__content__left .img__small img {
+    width: 100%;
+    display: block;
+
+
+}
+
+.intro__content .img__big img{
+    display: block;
+    width: 100%;
+}
+.img__big{
+    padding: 0 15px 25px ;
+}
+.intro__text{
+    font-size:  20px;
+    margin: 25px 0 40px;
+}
+.intro__text span {
+    color: red;
+    font-weight: bold;
+}
+.banner{
+    background-image: url(../img/nature.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-top: 30px;
+}
+.banner__circle{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(206, 42, 42, 0.699);
+    top:50px;
+    left:340px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+.banner__circle p{
+    
+    font-size:20px;
+    margin: 0 0 20px;
+}
+.banner__circle p:first-child{
+    font-size:50px;
+    margin-top: 30px;
+}
+.banner__circle p:nth-child(2){
+    font-size:50px;
+}
+
+/* *SERVICE */
+.service{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.service__content{
+    width: 70%;
+    margin:auto;
+   
+}
+.serviece__icon{
+    font-size:15px;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 0 15px 25px ;
+    
+}
+.serviece__icon i{
+    font-size:40px;
+}
+.serviece__icon p{
+    margin:0
+}
+.footer{
+    padding: 20px 0;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size:20px;
+    
+}
+.footer h1, .footer p{
+
+    margin:0;
+}
+
+    
